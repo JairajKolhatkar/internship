@@ -1,0 +1,24 @@
+# Build output
+target/
+dist/
+
+# Binaries
+*.exe
+*.jar
+*.war
+*.class
+
+# IDE
+.idea/
+.classpath
+.factorypath
+.project
+.settings/
+
+# Logs and OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Local config (contains secrets — use environment variables locally)
+**/application-local.properties
